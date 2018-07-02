@@ -1,0 +1,139 @@
+body {
+  background-color: #2C3539; }
+
+h3 {
+  font-family: "Shrikhand", cursive;
+  font-size: 23px;
+  letter-spacing: 1px; }
+
+.comb1 {
+  background-color: #FDD017; }
+
+.comb2 {
+  background-color: #FBB917; }
+
+.comb3 {
+  background-color: #E8A317; }
+
+.big-comb {
+  -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  transition: 2s;
+  padding: 80px 40px 80px 40px; }
+  @media (max-width: 767px) {
+    .big-comb {
+      padding: 100px 50px; } }
+  .big-comb h2 {
+    text-align: center;
+    padding-bottom: 20px;
+    font-family: "Shrikhand", cursive; }
+  .big-comb p, .big-comb li {
+    font-family: "Dosis", sans-serif;
+    font-size: 18px; }
+
+.honeycomb {
+  min-height: 210px;
+  min-width: 180px;
+  padding: 35% 15px 0;
+  -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  transition: 3s; }
+  @media (max-width: 767px) {
+    .honeycomb {
+      padding: 20% 15px 0; } }
+  .honeycomb:hover {
+    transform: scale(0.8, 0.8);
+    transition: 0.5s; }
+    .honeycomb:hover .icon-comb {
+      display: block; }
+  .honeycomb h1 {
+    font-family: "Shrikhand", cursive;
+    letter-spacing: 2px;
+    font-size: 23px; }
+  .honeycomb .icon-comb {
+    font-size: 50px;
+    padding-top: 10%;
+    display: none; }
+
+.banner-section {
+  margin-top: 20px; }
+  @media (max-width: 767px) {
+    .banner-section .comb-go {
+      display: none; } }
+  .banner-section .comb-row2 {
+    margin-top: -50px; }
+    @media (max-width: 767px) {
+      .banner-section .comb-row2 {
+        margin-top: 0; } }
+  .banner-section .comb-row3, .banner-section .comb-row1 {
+    margin-top: -40px; }
+    @media (max-width: 767px) {
+      .banner-section .comb-row3, .banner-section .comb-row1 {
+        margin-top: 0; } }
+  .banner-section .content-comb {
+    background-color: #B6B6B4; }
+  .banner-section .picture-comb {
+    background-image: url("images/matthew.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center; }
+
+.intro-section {
+  margin-top: 100px; }
+
+.interests-section {
+  margin-top: 50px; }
+
+.skills-section {
+  margin-top: 50px;
+  margin-bottom: 50px; }
+
+.work-section, .education-section {
+  color: #B6B6B4;
+  margin-bottom: 50px; }
+  @media (max-width: 767px) {
+    .work-section .work-ed-col, .education-section .work-ed-col {
+      margin-bottom: 30px; } }
+
+.carousel-body {
+  padding: 0 80px; }
+
+.dropdown-body {
+  background: transparent;
+  border: none;
+  padding-top: 50px; }
+
+.comb-button {
+  min-width: 280px;
+  padding: 50px 20px 50px 20px;
+  -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  transition: 1s; }
+  .comb-button:hover {
+    transform: scale(1.1);
+    transition: 1s; }
+
+.click-bellow {
+  font-family: "Shadows Into Light", cursive;
+  font-size: 30px;
+  color: #B6B6B4;
+  letter-spacing: 2px; }
+
+.quotes {
+  font-family: "Shadows Into Light", cursive;
+  font-size: 30px;
+  color: #B6B6B4;
+  padding-top: 50px; }
+
+.goodbye-button {
+  margin-bottom: 50px; }
+
+.footer-section {
+  padding-top: 50px;
+  padding-bottom: 50px; }
+  .footer-section a {
+    text-decoration: none; }
+  .footer-section .click-bellow:hover {
+    color: #FDD017; }
+
+/*# sourceMappingURL=styles.css.map */

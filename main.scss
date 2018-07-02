@@ -1,0 +1,222 @@
+
+//colours
+$background1: #2C3539;
+$background2: #FDD017;
+$background3: #FBB917;
+$background4: #E8A317;
+$text1: white;
+$text2: black;
+$shadow1: #B6B6B4;
+$shadow2: #dc3545;
+
+// fonts
+$font1: 'Shrikhand', cursive;
+$font2: 'Shadows Into Light', cursive;
+$font3: 'Dosis', sans-serif;
+
+// font sizes
+$font-quote: 30px;
+$font-heading: 23px;
+$font-content: 18px;
+
+// general
+body {
+    background-color: $background1;
+}
+
+h3 {
+    font-family: $font1;
+    font-size: $font-heading;
+    letter-spacing: 1px;
+}
+
+.comb1 {
+    background-color: $background2;
+}
+
+.comb2 {
+    background-color: $background3;
+}
+
+.comb3 {
+    background-color: $background4;
+}
+
+.big-comb {
+    -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%); 
+    transition: 2s;
+    padding: 80px 40px 80px 40px;
+
+    @media (max-width: 767px) {
+        padding: 100px 50px;
+    }
+
+    h2 {
+        text-align: center;
+        padding-bottom: 20px;
+        font-family: $font1;
+    }
+
+    p, li {
+        font-family: $font3;
+        font-size: $font-content;
+    }
+}
+
+.honeycomb {
+    min-height: 210px;
+    min-width: 180px;
+    padding: 35% 15px 0;
+    -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%); 
+    transition: 3s;
+
+    @media (max-width: 767px) {
+        padding: 20% 15px 0;
+    }
+
+    &:hover {
+        transform: scale(.8,.8);
+        transition: 0.5s;
+
+        .icon-comb {
+            display: block;
+        }
+    }
+
+    h1 {
+        font-family: $font1;
+        letter-spacing: 2px;
+        font-size: $font-heading;
+    }
+
+    .icon-comb {
+        font-size: 50px;
+        padding-top: 10%;
+        display: none;
+    }
+}
+
+// banner 
+.banner-section {
+    margin-top: 20px;
+
+    .comb-go {
+
+        @media (max-width: 767px) {
+            display: none;
+        }
+    }
+
+    .comb-row2 {
+        margin-top: -50px;
+
+        @media (max-width: 767px) {
+            margin-top: 0;
+        }
+    }
+
+    .comb-row3, .comb-row1 {
+        margin-top: -40px;
+
+        @media (max-width: 767px) {
+            margin-top: 0;
+        }
+    }
+
+    .content-comb {
+        background-color: $shadow1;
+    }
+
+    .picture-comb {
+        background-image: url("images/matthew.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+    }
+}
+
+// intro
+.intro-section {
+    margin-top: 100px;
+}
+
+// interests
+.interests-section {
+    margin-top: 50px;
+}
+
+// skills
+.skills-section {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+// work section & eduction section
+.work-section, .education-section {
+    color: $shadow1;
+    margin-bottom: 50px;
+
+    .work-ed-col {
+        @media (max-width: 767px) {
+            margin-bottom: 30px;
+        }
+    }
+}
+
+.carousel-body {
+    padding: 0 80px;
+}
+
+.dropdown-body {
+    background: transparent;
+    border: none;
+    padding-top: 50px;
+}
+
+.comb-button {
+    min-width: 280px;
+    padding: 50px 20px 50px 20px;
+    -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    transition: 1s;
+
+    &:hover {
+        transform: scale(1.1);
+        transition: 1s;
+    }
+}
+
+.click-bellow {
+    font-family: $font2;
+    font-size: $font-quote;
+    color: $shadow1;
+    letter-spacing: 2px;
+}
+
+.quotes {
+    font-family: $font2;
+    font-size: $font-quote;
+    color: $shadow1;
+    padding-top: 50px;
+}
+
+// goodbye
+.goodbye-button {
+    margin-bottom: 50px;
+}
+
+// footer
+.footer-section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    a {
+        text-decoration: none;
+    }
+
+    .click-bellow:hover {
+        color: $background2;
+    }
+}
